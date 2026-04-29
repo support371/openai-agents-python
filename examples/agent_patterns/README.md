@@ -60,3 +60,9 @@ See the [`input_guardrails.py`](./input_guardrails.py) and [`output_guardrails.p
 You can pause runs for manual approval before executing sensitive tools. This is useful for operations like sending money, deleting data, or running destructive commands.
 
 See [`human_in_the_loop.py`](./human_in_the_loop.py) for the base approval flow and [`human_in_the_loop_custom_rejection.py`](./human_in_the_loop_custom_rejection.py) for run-level tool error formatting when approvals are rejected.
+
+## Business automation orchestrator
+
+For project and business planning, you can combine specialist agents (strategy, execution, deployment, and automation design) behind one orchestrator. This produces a practical implementation blueprint from project highlights.
+
+See the [`business_automator.py`](./business_automator.py) file for an example.
